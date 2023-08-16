@@ -16,4 +16,6 @@ export const ButtonsStyle = styled.button`
   cursor: pointer;
   margin-left: 15px;
   margin-top: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 `;

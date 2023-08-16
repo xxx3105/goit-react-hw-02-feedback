@@ -46,6 +46,8 @@ export const Container = styled.div`
   margin-top: 80px;
   margin-bottom: 80px;
   border-radius: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export const TitleOfBlocks = styled.h2`
