@@ -14,4 +14,6 @@ export const ButtonsStyle = styled.button`
   border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
+  margin-left: 15px;
+  margin-top: 10px;
 `;

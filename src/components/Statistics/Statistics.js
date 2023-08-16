@@ -1,19 +1,16 @@
-import { ResultDesign, StatisticBlockPos } from './Statistics.styled';
+import { ListOfStats } from './Statistics.styled';
 
-export const Statistics = ({
-  good,
-  neutral,
-  bad,
-  total,
-  positivePercentage,
-}) => {
+export const Statistics = ({ good, neutral, bad, total }) => {
+  const posFeedb = ((good / total) * 100).toFixed(0);
   return (
-    <StatisticBlockPos>
-      <ResultDesign>Good: {good}</ResultDesign>
-      <ResultDesign>Neutral: {neutral}</ResultDesign>
-      <ResultDesign>Bad: {bad}</ResultDesign>
-      <ResultDesign>Total: {total}</ResultDesign>
-      <ResultDesign>Positive feedback: {positivePercentage}%</ResultDesign>
-    </StatisticBlockPos>
+    <div>
+      <ListOfStats>
+        <li>Good: {good}</li>
+        <li>Neutral: {neutral}</li>
+        <li>Bad: {bad}</li>
+        <li>Total: {total}</li>
+        <li>Positive feedback: {posFeedb}%</li>
+      </ListOfStats>
+    </div>
   );
 };

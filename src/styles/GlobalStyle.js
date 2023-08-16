@@ -52,3 +52,8 @@ export const TitleOfBlocks = styled.h2`
   text-align: center;
   padding: 10px 5px 0 5px;
 `;
+
+export const Message = styled.p`
+  text-align: center;
+  padding: 10px 5px 0 5px;
+`;
